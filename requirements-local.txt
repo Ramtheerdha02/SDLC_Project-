@@ -1,0 +1,8 @@
+# Optional heavier local stack (CrewAI + MCP). Free cloud hosts use requirements.txt.
+# CrewAI is most reliable on Python 3.11–3.12 (see runtime.txt). Skip this file on 3.14.
+-r requirements.txt
+wikipedia>=1.4.0
+reportlab>=4.0.0
+crewai>=0.80.0
+litellm>=1.0.0
+mcp>=1.0.0
